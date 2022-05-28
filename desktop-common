@@ -2,6 +2,10 @@ This seed provides the basic components that should be installed on an
 Ubuntu-family desktop system. It is expected to be supplemented with a
 particular flavour of desktop environment (e.g. GNOME, KDE, or XFCE).
 
+Before packages are added here, they must follow the procedure to
+ensure that all parties are aware of the addition:
+https://wiki.ubuntu.com/SeedManagement/AddingPackagesToDesktopCommon
+
 = Hardware and Architecture Support =
 
 == Architecture-independent ==
@@ -36,7 +40,6 @@ TODO not for Xubuntu
 These tools are very commonly used by people who drop into a console shell to do some work.
 
  * bc
- * genisoimage
  * zip
  * unzip                # also used for .zip support in file-roller
 
@@ -101,8 +104,14 @@ Fonts:
 
  * (packagekit)
 
+= Firmware updating support =
+
+ * (fwupd)
+ * (fwupd-signed)
+
 = Other =
 
  * anacron # generally appropriate for desktops
  * (kerneloops-daemon) # watch for and allow reporting of kernel problems
  * (policykit-desktop-privileges) # passwordless disk/CPU speed/time operations for admins
+ * language-selector-common # helps installer to work out which language-support packages to install
