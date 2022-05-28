@@ -1,0 +1,11 @@
+== Kernel ==
+
+ * %linux
+ * %linux-meta
+ * %linux-signed
+ * %linux-oem
+ * %linux-meta-oem
+ * %linux-signed-oem
+ * kexec-tools
+ * thermald
+ * kernel-wedge

@@ -1,0 +1,40 @@
+= Per-cloud-image packages =
+
+ * cifs-utils
+ * cloud-guest-utils
+ * hibagent
+ * %linux-aws
+ * %linux-meta-aws
+ * %linux-azure
+ * %linux-signed-azure
+ * %linux-meta-azure
+ * %linux-gke
+ * %linux-meta-gke
+ * %linux-hwe
+ * %linux-meta-hwe
+ * %linux-kvm
+ * %linux-meta-kvm
+ * %linux-gcp
+ * %linux-meta-gcp
+ * %linux-oracle
+ * %linux-signed-oracle
+ * %linux-meta-oracle
+ * chrony # ntpd replaced by chrony >=18.04 (LP: #1744072)
+ * gce-compute-image-packages # Google Compute Engine
+ * walinuxagent
+ * xe-guest-utilities # for XEN-virt-like cloud images, examples in the wild are Rackspace and Softlayer. LP: #1746680
+ * rax-nova-agent
+ * socat # LP: #1756870
+ * pv  # LP: #1746891
+
+= Architecture specific packages =
+
+ * grub-efi-amd64-signed [amd64]
+ * grub-efi-amd64 [amd64]
+ * shim-signed [amd64]
+
+ * grub-efi-arm64 [arm64]
+ * grub-efi-arm64-bin [arm64]
+
+ * s390-tools [s390x]
+ * sysconfig-hardware [s390x]
