@@ -17,12 +17,6 @@ restricted modules.
  * ${Kernel-Stem}-generic [i386]          # our chosen default install kernel
  * ${Kernel-Stem}-generic-hwe-18.04 [i386]
 
-== powerpc ==
-
- * yaboot [powerpc]
- * ${Kernel-Stem}-powerpc-smp [powerpc]   # powerpc kernel, 32-bit machines
- * ${Kernel-Stem}-generic [powerpc]       # powerpc kernel, 64-bit machines
-
 == ppc64el ==
 
  * grub-ieee1275 [ppc64el]
