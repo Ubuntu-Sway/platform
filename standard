@@ -21,14 +21,14 @@ Task-Test-new-install: install skip
  * logrotate
  * man-db            # ColinWatson
  * (manpages)        # ColinWatson
- * mime-support      # establishes framework for dealing with MIME
+ * media-types       # establishes framework for dealing with MIME
  * (nano)            # we need a text editor less scary than vi
  * parted
  * psmisc            # utilities for /proc such as killall, pstree, fuser
  * pciutils
  * usbutils
  * time
- * (mlocate)
+ * xz-utils          # previously pulled in by mime-support
  * (bash-completion)
 
 == Filesystems ==
@@ -44,9 +44,10 @@ These are commonly used filesystem support packages, here because someone settin
 
 These provide various networking services, all should be configured in a client-only state with the server de-activated unless the user requires it.
 
- * dnsutils       # LaMontJones
+ * bind9-dnsutils       # LaMontJones
  * ftp
- * iptables       # FabioMassimoDiNitto
+ * (iptables)       # FabioMassimoDiNitto
+ * nftables         # nft is the new iptables LP: #1887187
  * (telnet)
  * (openssh-client) # ColinWatson
  * rsync          # would be just client but they are the same binary apparently
@@ -63,15 +64,15 @@ These are used for debugging problems or examining the system.
  * ppc64-diag [powerpc ppc64el]	# LP: #1417608
  * lshw
  * lsof
- * ltrace
 
 = Helpful Tools =
  
  * (friendly-recovery)    # give a nice menu in recovery mode
  * (command-not-found)
+ * (update-manager-core)  # needed for server based release upgrades
  * (apparmor) # load AppArmor policies
  * (plymouth) # splash screen, and boot-time questions
- * (ureadahead)           # get things into cache as quickly as possible during boot
+ * (plymouth-theme-ubuntu-text)
 
 == Network ==
 
@@ -82,7 +83,5 @@ These are used for debugging problems or examining the system.
 
 = Other =
 
- * (cryptsetup) # was getting autoremoved after install possibly causing broken system
- * (lvm2) # was getting autoremoved after install causing broken system
- * (btrfs-tools)
- * (jfsutils)
+ * ubuntu-standard # metapackage for everything here
+ * (apt) # James Westby, enables access to private PPAs among other things
