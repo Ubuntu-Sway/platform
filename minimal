@@ -30,6 +30,7 @@ Programs and packages necessary for both the proper functionality of the system 
  * eject             # very popular, useful, small
  * less
  * locales
+ * lsb-release
  * lsb-release-minimal
  * kmod
  * netbase
