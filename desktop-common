@@ -25,6 +25,7 @@ Bluetooth:
 TODO not for Xubuntu
 
  * (bluez) # base for bluetooth support
+ * (bluez-obexd) # send files via bluetooth
  * (bluez-cups)  # allow connecting to bluetooth printers from CUPS
 
 == armel ==
