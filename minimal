@@ -31,7 +31,6 @@ Programs and packages necessary for both the proper functionality of the system 
  * less
  * locales
  * lsb-release
- * lsb-release-minimal
  * kmod
  * netbase
  * python3           # explicitly seeded, despite lsb-release also pulling it it
@@ -39,7 +38,7 @@ Programs and packages necessary for both the proper functionality of the system 
  * sudo              # LaMontJones
  * sysvinit-utils    # until "pidof" moves into procps, Debian #810018
  * tzdata
- * ubuntu-advantage-tools # needs to be on the system by default for ESM
+ * ubuntu-pro-client # needs to be on the system by default for the offerings of Ubuntu Pro like ESM
  * ubuntu-keyring     # for authenticated package downloads
  * udev
  * vim-tiny
@@ -49,7 +48,7 @@ Programs and packages necessary for both the proper functionality of the system 
 
 These provide various networking services, all should be configured in a client-only state with the server de-activated unless the user requires it.
 
- * isc-dhcp-client   # LaMontJones
+ * dhcpcd-base       # LaMontJones
  * iproute2
  * netplan.io        # foundations-aa-migrating-to-neplan (replaces ifupdown)
 
@@ -60,4 +59,3 @@ These provide various networking services, all should be configured in a client-
 
  * init               # ensure we have an init system (but minimal chroots)
  * ubuntu-minimal     # Ubuntu-specific bits we want on every Ubuntu system
-

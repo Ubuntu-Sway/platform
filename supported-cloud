@@ -41,6 +41,7 @@
  * sysfsutils
  * cloud-initramfs-rooturl # maas images initrd uses this
  * nvme-cli # GKE (LP: #1889688)
+ * nullboot # as supported by foundations and used on Azure CVM
 
 = Architecture specific packages =
 
@@ -58,6 +59,7 @@
 
  * u-boot-menu
  * u-boot-qemu
- * u-boot-sifive
- * u-boot-rpi
+ * u-boot-sifive [riscv64]
+ * u-boot-microchip [riscv64]
+ * u-boot-rpi [arm64 armhf]
  * opensbi
