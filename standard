@@ -69,7 +69,7 @@ These are used for debugging problems or examining the system.
  * (trace-cmd) # LP: #2051850
 
 = Helpful Tools =
-
+ 
  * (friendly-recovery)    # give a nice menu in recovery mode
  * (command-not-found)
  * (update-manager-core)  # needed for server based release upgrades

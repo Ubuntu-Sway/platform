@@ -81,7 +81,6 @@ Utilities:
  * iotop
  * john
  * libmemcached-tools #ClintByrum - server-maverick-uds-web20-workloads
- * nicstat
  * nut # UPS management
  * nut-cgi
  * nut-snmp
@@ -119,6 +118,7 @@ High Availability:
  * pacemaker
  * multipath-tools-boot
  * nbd-server
+ * nbd-client
  * drbd-utils
 
 Configuration Management:
@@ -144,7 +144,7 @@ FTP:
 
 Networking:
 
- * isc-dhcp-server
+ * kea
  * radvd
 
  * openvswitch-switch
@@ -169,7 +169,6 @@ Other Virtualization:
 Cloud:
 
  * cloud-utils
- * joyent-mdata-client
 
 IPv6 tools:
 

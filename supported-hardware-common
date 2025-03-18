@@ -10,4 +10,4 @@
  * hfsutils
  * squashfs-tools
  * reiser4progs
- * zfsutils-linux # currently no support in the installer; move to appropriate seed if this changes 
+ * zfsutils-linux # currently no support in the installer; move to appropriate seed if this changes

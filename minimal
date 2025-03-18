@@ -23,7 +23,6 @@ Programs and packages necessary for both the proper functionality of the system 
 
  * adduser
  * apt
- * apt-utils         # apt-extracttemplates is required for debconf preconfiguration
  * console-setup     # https://blueprints.launchpad.net/ubuntu/+spec/sane-installer-keyboard
  * debconf-i18n      # buildd chroots don't need this, but other systems generally do
  * kbd
@@ -59,3 +58,4 @@ These provide various networking services, all should be configured in a client-
 
  * init               # ensure we have an init system (but minimal chroots)
  * ubuntu-minimal     # Ubuntu-specific bits we want on every Ubuntu system
+
