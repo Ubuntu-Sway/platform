@@ -4,6 +4,7 @@ Ubuntu-family system (server or desktop) running on Raspberry Pi.
 = Hardware and Architecture Support =
 
  * flash-kernel [arm64 armhf]
+ * flash-kernel-piboot [arm64 armhf]
  * raspi-utils [arm64 armhf]
  * rpi-eeprom [arm64 armhf]
  * wpasupplicant
