@@ -2,7 +2,7 @@
 
  * cifs-utils
  * cloud-guest-utils
- * hibagent
+ * cloud-init-azure
  * %linux-aws
  * %linux-restricted-modules-aws
  * %linux-restricted-signatures-aws
@@ -35,6 +35,8 @@
  * gce-compute-image-packages # Google Compute Engine
  * google-osconfig-agent # Google Compute Engine
  * walinuxagent
+ * azure-proxy-agent # Microsoft Azure (LP: #2112359)
+ * azure-vm-utils # Microsoft Azure (LP: #2093322)
  * socat # LP: #1756870
  * pv  # LP: #1746891
  * lxd-installer # installed by livecd-rootfs in minimized cloud images
