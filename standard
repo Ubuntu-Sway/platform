@@ -9,8 +9,6 @@ Task-Test-new-install: install skip
 
 == Comfortable Unix System ==
 
- * busybox-static    # https://blueprints.launchpad.net/ubuntu/+spec/foundations-lucid-boot-recovery
- * cpio
  * cron
  * ed
  * file
@@ -69,7 +67,7 @@ These are used for debugging problems or examining the system.
  * (trace-cmd) # LP: #2051850
 
 = Helpful Tools =
- 
+
  * (friendly-recovery)    # give a nice menu in recovery mode
  * (command-not-found)
  * (update-manager-core)  # needed for server based release upgrades

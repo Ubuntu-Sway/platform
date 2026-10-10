@@ -24,3 +24,4 @@ Ubiquity needs full filesystem support for the partitioner.
 
  * ubuntu-x13s-settings-nogrub [arm64]
  * ubuntu-x1e-settings-nogrub [arm64]  # MIR: https://bugs.launchpad.net/ubuntu/+bug/2095536
+ * ubuntu-x2e-settings-nogrub [arm64]
